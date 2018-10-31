@@ -1,0 +1,5 @@
+---
+title: Vielseitigkeit
+subtitle: Unsere Programme sind stets vielseitig und genreübergreifend.
+---
+Seit vielen Jahren bearbeiten wir nun schon Musik, immer getrieben von der Lust am klanglichen Experiment und stets auf der Suche nach unverbrauchten Sounds. Oft sind wir selbst verblüfft, was am Ende herauskommt und so manche Bearbeitung entwickelt eine ganz eigene Faszination - nicht nur für unsere Konzertbesucher.Unsere Programme sind stets vielseitig und genreübergreifend konzipiert und meist in zwei bis vier Blöcke aufgeteilt. In der Regel starten wir in der alten Musik, gefolgt von weltlichen, romantischen oder zeitgenössischen Kompositionen. Nach einer kleinen Pause folgt dann der modernere Teil. Hier bilden unsere eigenen Volksliedbearbeitungen sowie diverse eigene Arrangements bekannter Popsongs den Hauptbestandteil.
