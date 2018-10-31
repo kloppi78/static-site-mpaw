@@ -1,5 +1,6 @@
 ---
 title: Musik zum Fairen Preis
-subtitle: Kunst und Musik, Kultur allgemein, ist nicht kostenlos. Aber gute Musik muss nicht teuer sein!
+subtitle: Gute Vokalmusik muss nicht teuer sein.
+icon: fas fa-euro-sign fa-2x fa-border
 ---
-Was zahlen Sie für einen Kinobesuch? Was gibt man aus für ein gutes Essen? Mit 10,- € kommt man da heute nicht mehr weit! Bei uns schon! Mit 10,- € sind Sie dabei und bekommen 90 Minuten erlesener Vokalmusik zum Genießen! Und für die Kleinen unter den Genießern ist das ganze sogar kostenlos!
+Was zahlen Sie für einen Kinobesuch? Was gibt man aus für ein gutes Essen? Wir wollen allen Interessierten Vokalmusik zum fairen Preis anbieten. In manchen Konzerten ist der Eintritt frei, in anderen kostet die Karte nicht mehr als 10 Euro. Dafür servieren wir Ihnen erlesene Vokalmusik aus verschiedenen Jahrhunderten.

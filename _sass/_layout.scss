@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color: $global-background-color;
 	color: $font-color;
 	font-family: $font-family;
 	font-style: normal;
@@ -10,7 +11,6 @@ body {
 h1,
 h2,
 h3 {
-	font-weight: 600;
 	color: $heading-font-color;
 	font-family: $heading-font;
 	line-height: 1.5;
@@ -44,22 +44,19 @@ header {
 	padding: 0px 15px;
 	text-align: center;
 	margin: 50px 0 0;
-	height: 50vh;
+	height: 60vh;
 	display: box;
 	justify-content: center;
 	align-items: center;
 }
 main {
-	padding: 0 15px;
 	max-width: $content-width;
 	margin: 0 auto;
+	float: none;
 }
 time {
 	color: #898989;
 }
-
-
-
 
 /* Aside */
 
@@ -67,11 +64,12 @@ aside {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: #grey;
+	background-color: #grey;
 	width: 100%;
 	z-index: 2;
 	border-bottom: 1px solid lighten($light, 30%);
-	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
+	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);	
+
 	nav {
 		float: left;
 		max-width: $content-width;
@@ -108,30 +106,33 @@ aside {
 	}
 	.container {
 		max-width: $content-width;
-		margin: 0 auto;		
+		margin: 0 auto;	
+		align: center;
 	}
-	.shortcut-contact {		
-		border-bottom: 1px solid grey;
-		max-width: $content-width;
-		line-height:15px;
-	}
-}
-footer {
-	text-align: center;
-	padding: 40px;
 }
 
-article {
+.characteristics {
+	margin: 10px;
+	text-align: center;
+}
+
+.character {
 	width: 30%;
 	padding: 1.1em;
+	margin: 10px;
 	float: left;
 	font-family: $font-family;
 	line-height: 1.3em;
 	
-	@media (max-width: 800px) {
+
+	
+	@media (max-width: 1024px) {
 		width: auto;
 		float: none;
-	}
-	
-	
+	}	
+}
+
+footer {
+	text-align: center;
+	padding: 40px;
 }

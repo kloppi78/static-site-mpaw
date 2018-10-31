@@ -1,0 +1,9 @@
+<div class="characteristics">
+	{% for charics in site.characteristics %}
+	<div class="character">
+		<i class="{{ charics.icon }}"></i>
+		<h3>{{ charics.title }}</h3>
+		{{ charics.content }}			
+	</div>
+	{% endfor %}
+</div>	

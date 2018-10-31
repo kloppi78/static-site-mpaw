@@ -5,19 +5,10 @@
 <body>
 	{% include header.html %}
 	<main>
-		<div class="articles">
-			{% for charics in site.characteristics %}
-			<article>
-			<h3>{{ charics.title }}</h2>
-			<h4>{{ charics.subtitle }}</h4>
-			<p>{{ charics.content | markdownify }}</p>			
-			</article>
-			{% endfor %}
-
-		</div class="highlights">
+		{% include characteristics.html %}
+		{% include highlights.html %}
 		
-		<div>
-		</div>
+		Test
 	</main>
 	{% include footer.html %}
 </body>

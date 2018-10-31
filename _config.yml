@@ -40,10 +40,13 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+excerpt_separator: <!--more-->
+  
 collections_dir: collections
   
 collections: 
   - characteristics
+  - highlights
   
   
 # Exclude from processing.
