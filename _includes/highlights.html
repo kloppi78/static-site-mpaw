@@ -1,8 +1,12 @@
-<div class="highlights">
-	{% for highlight in site.highlights %}
-	<div class="highlight">
-		<h3>{{ highlight.Headline }}</h3>
-		<h2>{{ highlight.Description }}</h2>
-	</div>
-	{% endfor %}
+<div class="parallax">
+	<div class="highlights">
+		<h1>Was Sie über uns wissen sollten</h1>
+		<p>Im Laufe der Jahre sind einige interessante Zahlen entstanden</p>
+		{% for highlight in site.highlights %}
+		<div class="highlight">
+			<h1>&uuml;ber {{ highlight.Headline }}</h1>
+			<p>{{ highlight.Description }}</p>
+		</div>
+		{% endfor %}
+	</div>	
 </div>	

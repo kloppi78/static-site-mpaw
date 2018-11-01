@@ -6,7 +6,7 @@ body {
 	font-style: normal;
 	font-size: 1.0em;
 	line-height: 1.3;
-	-webkit-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;	
 }
 h1,
 h2,
@@ -50,9 +50,7 @@ header {
 	align-items: center;
 }
 main {
-	max-width: $content-width;
 	margin: 0 auto;
-	float: none;
 }
 time {
 	color: #898989;
@@ -107,13 +105,14 @@ aside {
 	.container {
 		max-width: $content-width;
 		margin: 0 auto;	
-		align: center;
 	}
 }
 
-.characteristics {
+.characteristics {	
+	display: box;
 	margin: 10px;
 	text-align: center;
+	align-items: center;
 }
 
 .character {
@@ -130,6 +129,49 @@ aside {
 		width: auto;
 		float: none;
 	}	
+}
+
+.parallax {
+	display: box;
+	clear: both;
+    /* The image used */
+	background-image: url("../images/parallax-bg.jpg");
+
+    /* Set a specific height */
+    height: 60vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.highlights {
+	z-index: 1;
+    height: 100%;
+	background-color: #000;	
+	opacity: 0.7;
+	filter: alpha(opacity=50);
+	text-align: center;
+	padding-top: 1.2em;
+	font-size: 1.2em;
+	h1 {
+		font-size: 2.0em;
+		color: #fff;
+	}
+}
+
+.highlight {
+	z-index: 2;
+	width: 24%;
+	float: left;
+	line-height: 1.8em;
+}	
+
+.team {
+	padding-top: 1.2em;
+	text-align: center;
 }
 
 footer {
