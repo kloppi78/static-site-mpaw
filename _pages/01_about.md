@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Über uns
-permalink: /About/
+permalink: "/About/"
+layout: page
 ---
 
 1992 gegründet, hat sich das Ensemble »Music Project Altmark West« in auch heute noch wechselnden Besetzungen der Vokalmusik unterschiedlichster Epochen und Stilrichtungen verschrieben, ohne sich dabei festlegen zu lassen. Der Name »Music Project Altmark West«, der immer wieder Irritationen auslöst, ist inzwischen zu einem Synonym für höchsten musikalischen Anspruch und mehrfach ausgezeichnete Qualität geworden. Der ungewöhnliche Name rückt aber auch den Kerngedanken ihrer musikalischen Arbeit, den im besten Sinne »gelebten« Projektgedanken in den Fokus: Musikalisch niemals stehen zu bleiben, sich weiter zu entwickeln und sich eben nicht festlegen zu lassen.
