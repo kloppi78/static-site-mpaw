@@ -47,6 +47,7 @@ collections_dir: collections
 collections: 
   - characteristics
   - highlights
+  - members
   
   
 # Exclude from processing.
