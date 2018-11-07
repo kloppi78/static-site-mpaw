@@ -51,6 +51,7 @@ header {
 }
 main {
 	margin: 0 auto;
+	width: $content-width;
 }
 time {
 	color: #898989;
@@ -113,23 +114,24 @@ aside {
 	margin: 10px;
 	text-align: center;
 	align-items: center;
+	.character {
+		width: 30%;
+		padding: 1.1em;
+		margin: 10px;
+		float: left;
+		font-family: $font-family;
+		line-height: 1.3em;
+		
+
+		
+		@media (max-width: 1024px) {
+			width: auto;
+			float: none;
+		}	
+	}
 }
 
-.character {
-	width: 30%;
-	padding: 1.1em;
-	margin: 10px;
-	float: left;
-	font-family: $font-family;
-	line-height: 1.3em;
-	
 
-	
-	@media (max-width: 1024px) {
-		width: auto;
-		float: none;
-	}	
-}
 
 .parallax {
 	display: box;
@@ -160,34 +162,34 @@ aside {
 		font-size: 2.0em;
 		color: #fff;
 	}
+	
+	.highlight {
+		z-index: 2;
+		width: 24%;
+		float: left;
+		line-height: 1.8em;
+	}	
 }
 
-.highlight {
-	z-index: 2;
-	width: 24%;
-	float: left;
-	line-height: 1.8em;
-	
-
-}	
+.video {
+	width: 100%
+}
 
 .team {
-	text-align: center;
 	align-items: center;
-	padding:0px;
-	margin-top:1.2em;	
-	.portraits{
-		width: 80vh;
-		text-align: center;
-	}
-
+	margin:1.9em auto;	
+	width: $content-width;	
 	.portrait {		
-		width:100%;
-		padding: 0px;
+		padding: 0px;	
 		img {		
 			float: left;
-			width: 140px;
+			width: 170px;
+			
+			@media (max-width: 1024px) {
+				float: none;
+			}
 		}	
+				
 	}
 }
 
