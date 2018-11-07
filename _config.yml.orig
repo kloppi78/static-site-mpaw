@@ -1,0 +1,58 @@
+---
+title: Music Project Altmark West
+timezone: UTC
+collections:
+  characteristics:
+    title: Characteristics
+    output: false
+  highlights:
+    title: Highlights
+    output: false
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: mpaw@outlook.de
+description: Wir sind ein sechsköpfiges Vokalensemble, das sich der Vokalmusik aus  vier
+  Jahrhunderten verschrieben hat.
+baseurl: ''
+url: http://localhost:4000
+twitter_username: mpaw1992
+github_username: kloppi78
+sass:
+  sass_dir: _sass
+  style: compressed
+includes_dir: _includes
+layouts_dir: _layouts
+include:
+- _pages
+kramdown:
+  input: GFM
+markdown: kramdown
+plugins:
+- jekyll-feed
+excerpt_separator: "<!--more-->"
+collections_dir: collections
+<<<<<<< HEAD
+  
+collections: 
+  - characteristics
+  - highlights
+  - members
+  
+  
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+=======
+>>>>>>> f9203bdd08a0f34198296f2a3512cdfbb21a6520
