@@ -3,10 +3,10 @@
 		<h1>Was Sie über uns wissen sollten</h1>
 		<p>Im Laufe der Jahre sind einige interessante Zahlen entstanden</p>
 		{% for highlight in site.highlights %}
-		<div class="highlight">
+		<article class="highlight">
 			<h1>&uuml;ber {{ highlight.Headline }}</h1>
 			<p>{{ highlight.Description }}</p>
-		</div>
+		</article>
 		{% endfor %}
 	</div>	
 </div>	

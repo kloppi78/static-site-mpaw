@@ -1,9 +1,12 @@
 <div class="characteristics">
-	{% for charics in site.characteristics %}
-	<div class="character">
-		<i class="{{ charics.icon }}"></i>
-		<h3>{{ charics.title }}</h3>
-		{{ charics.content }}			
+	<div class="inner-characteristics">
+		<h1>Was uns ausmacht</h1>
+		{% for charics in site.characteristics %}
+		<article class="character">
+			<i class="{{ charics.icon }}"></i>
+			<h3>{{ charics.title }}</h3>
+			{{ charics.content }}			
+		</article>
+		{% endfor %}
 	</div>
-	{% endfor %}
-</div>	
+</div>
