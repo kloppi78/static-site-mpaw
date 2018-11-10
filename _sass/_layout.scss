@@ -65,7 +65,7 @@ aside {
 	left: 0;
 	background-color: #ffffff;
 	width: 100%;
-	/*z-index: 2;*/
+	z-index: 2;
 	border-bottom: 1px solid lighten($light, 30%);
 	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);	
 
@@ -131,8 +131,6 @@ aside {
 	}
 }
 
-
-
 .parallax {
 	display: box;
 	clear: both;
@@ -177,19 +175,23 @@ aside {
 
 .team {
 	align-items: center;
-	margin:1.9em auto;	
-	width: $content-width;	
+	margin: 50px auto;	
+	width: $content-width;
+		
 	.portrait {		
-		padding: 0px;	
 		img {		
 			float: left;
 			width: 170px;
-			
+			margin-left: 100px;
+			border-radius: 50%;
+			border: 1px solid #333333;
 			@media (max-width: 1024px) {
 				float: none;
 			}
+		}
+		.portrait-text {
+			float: none;
 		}	
-				
 	}
 }
 

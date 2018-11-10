@@ -1,7 +1,9 @@
 <div class="team">
 	{% for member in site.members %}
 		<div class="portrait">
-			<img src="images/{{member.Image}}"/>
+				<img src="images/{{member.Image}}"/>
+				<h3> {{ member.Voice }} </h3>
+				<p> {{content}}</p>		
 		</div>
 	{% endfor %}	
 </div>	
