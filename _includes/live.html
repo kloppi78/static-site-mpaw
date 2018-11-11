@@ -1,0 +1,47 @@
+<div class="home-events">
+	<div class="home-inner-event">
+		<h1>Aktuelles</h1>
+		{% for event in site.events %}
+			{% if forloop.first == true %}
+				<article class="event">
+					<table>
+						<tr>
+							<td colspan="2"><p class="event-date"> {{ event.Date }} </p></td>
+						</tr>
+						<tr>
+							<td colspan="2"><p class="event-title">{{ event.Title }} </p></td>
+						</tr>
+						<tr>
+							<td><i class="fas fa-city fa-2x fa-border"> </i></td>
+							<td>
+							<p class="event-location"> {{ event.Location}} </p></td>
+						</tr>
+						<tr>
+							<td><i class="fas fa-church fa-2x fa-border"></i></td>
+							<td><p class="event-venue"> {{ event.Venue }}<br>
+							{{ event.Adress }}</p></td>
+						</tr>
+						<tr>
+							<td><i class="fas fa-info fa-2x fa-border"> </i> </td>
+							<td><p class="event-content"> {{ event.content }} </p></td>
+						</tr>
+						<tr>
+							<td><i class="fas fa-euro-sign fa-2x fa-border"></i> </td>
+							<td><p class="prize"> {{ event.Prize }} </p></td>
+						</tr>
+					</table>
+				</article>
+			{% endif %}	
+		{% endfor %}	
+	</div>
+	<div class="home-posts">
+	{% for post in site.posts %}		
+		{% if forloop.latest == true %}
+		<h4>{{ post.title }}</h4>
+		<p>
+		{{ posts.content }}
+		</p>
+		{% endif %}	
+	{% endfor %}
+	</div>
+</div>	
