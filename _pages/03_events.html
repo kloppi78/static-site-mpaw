@@ -1,11 +1,15 @@
-<div class="home-events">
-	<div class="home-inner-event">
+---
+title: Konzerte
+permalink: "/Auf Tour/"
+layout: page
+---
+
+<div class="events">
+		<ul class="event-list">
 		{% for event in site.events %}
-			{% if forloop.first == true %}
-				<article class="home-live-article">
-				
-					<h1>Nächstes Konzert</h1>
-					<h4>{{ event.Title }} -  {{ event.Date }} </h4>
+			<li>
+			<article>
+			<h4>{{ event.Title }} -  {{ event.Date }} </h4>
 					<table>
 						<tr>
 							<td><i class="fas fa-city fa-2x fa-border"> </i></td>
@@ -26,22 +30,9 @@
 							<td><p class="prize"> {{ event.Prize }} </p></td>
 						</tr>
 					</table>
-				</article>
-			{% endif %}	
-		{% endfor %}	
+			</li>
+			</article>
+		{% endfor %}
+		</ul>
 
-		<article class="home-live-article">
-			
-			<h1>Letzter Blog</h1>
-			  {% for post in site.posts %}
-				{% if forloop.last == true %}
-				
-				  <a href="{{ post.url }}">{{ post.title }}</a>
-				  <p>
-					{{ post.content }}
-				  </p>
-				{% endif %}
-			  {% endfor %}
-		</article>
-	</div>
-</div>	
+</div>
