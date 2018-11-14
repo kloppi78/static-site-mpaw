@@ -296,10 +296,21 @@ div.contact {
 	float:left;
 	background-color: #FEFEFE;	
 	
+	font-size:1.1em;
+	
 	.contact-adress {
 		margin: 35px; 
 		float: left;
 	}
+	
+	table {
+		td {
+			
+			vertical-align:top;
+		}
+	    padding:15px;
+	}
+	
 	.contact-map {
 		margin: 35px; 
 		iframe {
