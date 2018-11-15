@@ -7,19 +7,18 @@
 		<article>
 		<nav>
 				<ul>
-				<li><a href=""> Über uns </a>	</li>
-				<li><a href=""> Konzerte </a>		</li>
-				<li><a href=""> Blog </a>		</li>
-				<li><a href=""> Kontakt </a>	</li>
-				<li><a href=""> Impressum </a>	</li>
-				<li><a href=""> Datenschutz </a></li>
+				{% for page in site.pages %} {% if page.title %}
+				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+				{% endif %} {% endfor %}
 				</ul>
 				</nav>
-				
-					<a href="http://www.facebook.com/518065574877431"><i class="fab fa-facebook fa-3x"><span class="sr-only">facebook</span></i></a>
-					<a href="http://twitter.com/mpaw1992"><i class="fab fa-twitter fa-3x"><span class="sr-only">twitter</span></i></a>
-					<a href="https://www.youtube.com/channel/UCW-Z0yH_TakmcYgEi_SQb-Q"><i class="fab fa-youtube fa-3x"><span class="sr-only">Youtube</span></i></a>
-			
+				<br>
+				<nav>
+				<ul>
+					<li><a href="http://www.facebook.com/518065574877431"><i class="fab fa-facebook fa-3x"><span class="sr-only">facebook</span></i></a></li>
+					<li><a href="http://twitter.com/mpaw1992"><i class="fab fa-twitter fa-3x"><span class="sr-only">twitter</span></i></a></li>
+					<li><a href="https://www.youtube.com/channel/UCW-Z0yH_TakmcYgEi_SQb-Q"><i class="fab fa-youtube fa-3x"><span class="sr-only">Youtube</span></i></a></li>
+				</nav>
 		</article>
 
 	</div>

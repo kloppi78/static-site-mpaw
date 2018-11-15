@@ -1,21 +1,22 @@
 ---
-title: Web Blog
+title: Blog
 permalink: "/Blog/"
-layout: page
+layout: post
 ---
 
 <div class="blog">
 		<ul class="blog-list">
 		<article class="blog-article">
 			
-			<h1>Blog</h1>
 			  {% for post in site.posts %}
-				
-				  <a href="{{ post.url }}">{{ post.title }}</a>
-				  <p>
-					{{ content }}
-				  </p>
+				<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				<p>
+				{{ post.content }}
+				</p>
+				  
 				{% endfor %}
+				<p class="copyright">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 		</article>
 		</ul>
 
