@@ -1,9 +1,10 @@
 ---
 title: Unfolded
-cover: /images/cover-unfolded.jpg
+cover: "/images/cover-unfolded.jpg"
 recorded-in: 2014
 layout: page
-preview: Unfolded ist die erst CD Produktion, die von der Aufnahme, über Schnitt und Mastering, bis hin zur Übergabe an das Presswerk in Eigenregie durchgeführt wurde.
+preview: Unfolded ist die erst CD Produktion, die von der Aufnahme, über Schnitt und
+  Mastering, bis hin zur Übergabe an das Presswerk in Eigenregie durchgeführt wurde.
 ---
 
 Domine, Dominus Noster * Adoramus Te * Ad te levavi oculos meos * Ave Maria * Magnificat * Kein schöner Land * Dat du min Leevsten büst * Kume, kum Geselle min * Reason to Fly * Colorblind * Grenade * Hide and Seek
