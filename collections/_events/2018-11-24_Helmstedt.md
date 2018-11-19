@@ -1,6 +1,6 @@
 ---
 Title: Konzert
-Date: 25.11.2018 - 19 Uhr
+Date: 25.11.2018 - 18 Uhr
 Location: Helmstedt
 Adress: Beguinenstraße 11, 38350 Helmstedt
 Venue: St.Stephani Kirche

@@ -1,6 +1,8 @@
 ---
 title: Music Project Altmark West
 timezone: GMT
+
+# Grouping of collections
 collections:
   characteristics:
     title: Characteristics
@@ -26,6 +28,8 @@ collections:
   cds:
     title: cds
     output: true
+
+# general information
 email: mpaw@outlook.de
 description: Wir sind ein sechsköpfiges Vokalensemble, das sich der Vokalmusik aus  vier
   Jahrhunderten verschrieben hat.
@@ -33,13 +37,19 @@ baseurl: ''
 url: http://localhost:4000
 twitter_username: mpaw1992
 github_username: kloppi78
+
+# Where things are
 sass:
   sass_dir: _sass
   style: compressed
+
 includes_dir: _includes
 layouts_dir: _layouts
+collections_dir: collections
 include:
 - _pages
+
+future: true;
 kramdown:
   input: GFM
 markdown: kramdown
@@ -47,4 +57,4 @@ plugins:
 - jekyll-feed
 - jekyll-feed
 excerpt_separator: "<!--more-->"
-collections_dir: collections
+

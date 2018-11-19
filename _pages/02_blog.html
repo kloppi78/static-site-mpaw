@@ -8,15 +8,15 @@ layout: post
 		<ul class="blog-list">
 		<article class="blog-article">
 			
-			  {% for post in site.posts %}
+			 {% for post in site.posts %}
 				<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				<p>
 				{{ post.content }}
 				</p>
 				  
-				{% endfor %}
-				<p class="copyright">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+			{% endfor %}
+			<p class="copyright">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 		</article>
 		</ul>
 
