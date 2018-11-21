@@ -359,7 +359,9 @@ div.media {
 		max-width: 85%;
 		margin-left: auto;
 		margin-right: auto;
+		float:none;
 	}
+	
 	article {		
 		border:1px solid #EEEEEE;
 		border-radius: 10px;
@@ -370,7 +372,11 @@ div.media {
 	}
 	p.cd-editorial {
 
-	}	
+	}
+	
+	a {
+		color: $main;
+	}
 }
 
 div.impressum {
