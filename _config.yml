@@ -19,6 +19,9 @@ collections:
   posts:
     title: Posts
     output: true
+  scores:
+    title: Scores
+    output: false
   uploads:
     title: Uploads
     output: true

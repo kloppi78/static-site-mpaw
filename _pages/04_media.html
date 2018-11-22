@@ -31,10 +31,25 @@ layout: page
 		<ul>
 		<li>
 		<h3>Arrangements und Noten</h3>
+		</li>
+		{% for score in site.scores %}
+		<li>
 		<article>
-		<p>Einige unserer Arrangements finden sie zum Erwerb auch unter <a href="https://www.scoreexchange.com/profiles/124382" target="_blank">www.scoreexchange.com</a>.</p>		
+		<i class="fas fa-book-reader fa-2x"></i>
+		<table>
+			<tr><td colspan="2"><h4> {{ score.title }}</h4></td></tr>
+			<tr><td>Komponist:</td><td>{{ score.composer }} </td></tr>
+			<tr><td>Arrangeur:</td><td>{{ score.arranger }} </td></tr>
+			<tr><td>Länge:</td><td>{{ score.duration }} </td></tr>
+			<tr><td>Satz:</td><td>{{ score.instrumentation }} </td></tr>
+			<tr><td>Link:</td><td><a href="https://www.scoreexchange.com/scores/{{ score.score-id }}.html">Link to Score Exchange</a></td></tr>
+		</table>
 		</article>
 		</li>
+		<li>
+		<br>
+		</li>
+		{% endfor %}
 		</ul>
 	</div>
 	
