@@ -1,6 +1,6 @@
 ---
 Title: Adventskonzert
-Date: 01.12.2018 - 18 Uhr
+Date: 01.12.2018 - 17 Uhr
 Location: Burgkemnitz
 Venue: Barockkirche
 Prize: 10 Euro
