@@ -6,4 +6,4 @@ Venue: St.Marienkirche
 Prize: 10 Euro
 ---
 
-Ein Passionskonzert der besonderen Art mit den Exequien von Schütz zusammen mit dem herausragenden Organisten Roland Dyk.
+Ein Passionskonzert, welches wir zusammen mit dem Chor 5 gestalten. Es erklingen die Exequien von Schütz zusammen mit dem herausragenden Organisten Roland Dyk.
