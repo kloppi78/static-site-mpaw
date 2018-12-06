@@ -1,3 +1,6 @@
+---
+excerpt_separator: <!--more-->
+---
 <div class="home-events">
 	<div class="home-inner-event">
 		{% for event in site.events %}
@@ -38,7 +41,7 @@
 				
 				  <a href="{{ post.url }}">{{ post.title }}</a>
 				  <p>
-					{{ post.content }}
+					{{ post.excerpt }}
 				  </p>
 				{% endif %}
 			  {% endfor %}

@@ -1,16 +1,8 @@
-
 ---
-
-title: O Tannenbaum, du trägst ein' grünen Zweig
-
+title: O Tannenbaum, du trÃ¤gst ein' grÃ¼nen Zweig
 arranger: Sebastian Klopp
-
 composer: 16. Jahrhundert
-
 duration: 2 Minuten
-
 instrumentation: Chor, 6-stimmig
-
 score-id: 366522
-
 ---

@@ -55,6 +55,10 @@ header {
 main {
 	margin: 0 auto;
 	max-width: $content-width;	
+	img {
+		margin-top: 15px;
+		width: 100%;
+	}
 }
 time {
 	color: #898989;
