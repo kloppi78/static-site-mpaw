@@ -8,9 +8,9 @@ layout: page
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:<br>
 
-Music Project Altmark West GbR  
-Hagenring 11  
-38486 Klötze  
+Music Project Altmark West GbR  <br>
+Dönitzer Straße 34B<br>
+38486 Klötze OT Immekath <br>
 
 Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).
 

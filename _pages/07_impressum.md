@@ -5,9 +5,8 @@ layout: page
 ---
 
 #### Music Project Altmark West GbR
-Hagenstraße 11,  
-38486, Klötze,  
-Deutschland  
+Dönitzer Straße 34B, <br>
+38486 Klötze OT Immekath<br>
 
 #### Design und Programmierung:
 Music Project Altmark West GbR,   
