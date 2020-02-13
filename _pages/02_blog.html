@@ -6,15 +6,14 @@ layout: post
 
 <div class="blog">
 		<ul class="blog-list">
-		<article class="blog-article">
-			
-			 {% for post in site.posts %}
+		<article class="blog-article">			
+			 {% for post in site.posts %}			 
 				<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 				<p>
+				<br><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="btn btn_facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a><br>
 				{{ post.content }}
-				</p>
-				  
+				</p>				
 			{% endfor %}
 			<p class="copyright">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 		</article>
